@@ -1,7 +1,7 @@
 <?php
 /**
  * @package     Joomla.Site
- * @subpackage  Templates.robosane
+ * @subpackage  Templates.skiboynet
  *
  * @copyright   Copyright (C) Ben Klein, Robosane
  * @license     Mozilla Public License Version 2.0

@@ -1,8 +1,8 @@
 #!/bin/bash
 # Zip the package
 
-rm RobosaneTemplate.zip
-zip -r RobosaneTemplate.zip css fonts html img index.html index.php js language less README.md LICENSE.txt templateDetails.xml component.php
+rm SkiboynetTemplate.zip
+zip -r SkiboynetTemplate.zip css fonts html img index.html index.php js language less README.md LICENSE.txt templateDetails.xml component.php
 
-packagesize=$(ls -lh RobosaneTemplate.zip)
+packagesize=$(ls -lh SkiboynetTemplate.zip)
 echo "Created: $packagesize"

@@ -1,7 +1,7 @@
 <?php
 /**
  * @package     Joomla.Site
- * @subpackage  Templates.robostar
+ * @subpackage  Templates.skiboynet
  *
  * @copyright   Copyright (C) Ben Klein
  * @license     GNU General Public License version 3 or later; see LICENSE.txt

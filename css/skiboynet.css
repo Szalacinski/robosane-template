@@ -1,5 +1,5 @@
 /*!
- * Robosane Joomla Template Theeem CSS.
+ * Skiboynet Joomla Template Theeem CSS.
  */
 
 body,
@@ -31,7 +31,6 @@ p > img {
 .topnav {
     /*font-size: 14px;*/
     background-color: #000;
-    text-transform: uppercase;
     font-family: "Ubuntu","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -418,7 +417,7 @@ li.active.current:before {
   top: 0;
   left: 0;
   height: 110%;
-  width: 50%;
+  width: 51%;
   background: #ed2024;
   -webkit-transform: skew(0deg, 20deg);
   -moz-transform: skew(0deg, 20deg);

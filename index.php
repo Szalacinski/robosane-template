@@ -1,7 +1,7 @@
 <?php
 /**
  * @package     Joomla.Site
- * @subpackage  Templates.robosane
+ * @subpackage  Templates.skiboynet
  *
  * @copyright   Copyright (C) Ben Klein, Robosane
  * @license     Mozilla Public License Version 2.0
@@ -30,7 +30,7 @@ $sitename = $app->getCfg('sitename');
 
 // Add Stylesheets
 $doc->addStyleSheet('templates/'.$this->template.'/css/bootstrap.css');
-$doc->addStyleSheet('templates/'.$this->template.'/css/robosane.css');
+$doc->addStyleSheet('templates/'.$this->template.'/css/skiboynet.css');
 
 // Add current user information
 $user = JFactory::getUser();

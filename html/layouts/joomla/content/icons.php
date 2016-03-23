@@ -1,6 +1,6 @@
 <?php
 /**
- * RoboStar Template by Ben Klein
+ * Skiboynet Template by Caleb Szalacinski
  * Template based from Protostar
  *
  * @copyright   Copyright (C) Ben Klein
