@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<<<<<<< HEAD
 <extension version="3.6.6" type="template" method="upgrade" client="site">
         <name>Skiboynet</name>
         <version>3.6.6</version>
         <creationDate>March 2015 to January 2016</creationDate>
+=======
+<extension version="3.7.0" type="template" method="upgrade" client="site">
+        <name>Robosane</name>
+        <version>3.7.0</version>
+        <creationDate>March 2015 to February 2016</creationDate>
+>>>>>>> 54d604d971417950de0f5ac013663e8614a5e1e6
         <author>Ben Klein</author>
         <authorEmail>robobenklein@gmail.com</authorEmail>
         <copyright>Copyright (C) Ben Klein, 2016.  Skiboy.net logo (C) Caleb Szalacinski, 2016.</copyright>

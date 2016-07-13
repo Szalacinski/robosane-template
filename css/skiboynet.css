@@ -2,6 +2,7 @@
  * Skiboynet Joomla Template Theeem CSS.
  */
 
+/* Better html base */
 body,
 html {
     width: 100%;
@@ -14,6 +15,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+.red-text {
+  color: #C00;
+}
+
+/* Make images show nicely in paragraphs. */
 p > img {
   display: block;
   max-width: 100%;
@@ -24,12 +30,8 @@ p > img {
   white-space: normal;
 }
 
-.cbMenu > li > a {
-  background-color: #fff;
-}
-
+/* Style for top nav with Ubuntu font */
 .topnav {
-    /*font-size: 14px;*/
     background-color: #000;
     font-family: "Ubuntu","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -37,12 +39,16 @@ p > img {
 .topnav > .navbar {
   margin-bottom: 0;
 }
+.topnav .nav li a {
+  color: #f8f8f8;
+}
 
 .lead {
     font-size: 18px;
     font-weight: 400;
 }
 
+/* For a large image-background intro section to a page. */
 .intro-message {
     position: relative;
     padding-top: 20%;
@@ -112,6 +118,28 @@ p > img {
     word-wrap: break-word;
 }
 
+/* Uses flexbox to make bootstrap columns the same height.
+ * Forces all columns into same row.
+ */
+.row-eq-height-flexbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.vertical-center-flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vertical-center-inline {
+  display: inline-block;
+  vertical-align: middle;
+  float: none
+}
+
 .section-heading {
     margin-bottom: 30px;
 }
@@ -178,6 +206,8 @@ p.copyright {
     margin: 15px 0 0;
 }
 
+
+/* Better pagination that fits the theme */
 .pagination {
   list-style: none;
   display: inline;
@@ -247,6 +277,9 @@ p.copyright {
         -moz-border-radius-bottomright: 4px;
         border-bottom-right-radius: 4px;
 }
+.pagination ul > li i.material-icons {
+  font-size: 14px;
+}
 
 ul.unstyled, ol.unstyled {
   margin-left: 0px;
@@ -269,8 +302,9 @@ ul.unstyled, ol.unstyled {
         box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
 }
 
-/* Joomla Specific Tweaks */
-/* Login form input alignment: */
+/* Login form input alignment:
+ * Joomla-specific
+ */
 form#login-form > div > div,
 form#login-form > div > div > div,
 form#login-form > div > div > div > div,
@@ -297,7 +331,9 @@ form#login-form .btn-primary {
   color: #C00;
 }
 
-/* UDDEModule CSS */
+/* Joomla-specific:
+ * UDDEModule CSS
+ */
 #uddeim-modulenew,
 #uddeim-module {
   font-size: 11px;
@@ -311,9 +347,7 @@ form#login-form .btn-primary {
   margin: 0;
 }
 
-/* Bootstrap Overrides */
-/* Cuz bootstrap need a change. */
-/* At least for my purposes. */
+/* Robosane Colors for links */
 a {
   color: #C00;
 }
@@ -324,10 +358,10 @@ a:hover, a:focus {
     color: #C00;
 }
 
+/* Navigation */
 .menu a:hover, .menu a:focus {
   color: #ed2024;
 }
-
 .page-header {
   margin: 10px 0 10px;
 }
@@ -367,15 +401,14 @@ a:hover, a:focus {
 .nav > li > a {
   transition: all .2s ease;
   border-bottom: 4px solid transparent;
-  color: #f8f8f8;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
   background-color: transparent;
-  border-bottom: 4px solid #ed2024;
+  /* border-bottom: 4px solid #ed2024; */
+  box-shadow: inset 0px -4px 0px #ed2024;
 }
-
 .nav-stacked > li > a:hover,
 .nav-stacked > li > a:focus {
   border-bottom: 4px solid transparent;
@@ -417,7 +450,8 @@ li.active.current:before {
   top: 0;
   left: 0;
   height: 110%;
-  width: 51%;
+  width: 50%;
+  width: calc(50% + 1px);
   background: #ed2024;
   -webkit-transform: skew(0deg, 20deg);
   -moz-transform: skew(0deg, 20deg);

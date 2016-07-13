@@ -57,6 +57,7 @@ if ($this->countModules('position-7')) {
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <jdoc:include type="head" />
     <?php // Twitter cards!
@@ -190,6 +191,7 @@ if ($this->countModules('position-7')) {
 <?php endif; ?>
 
 <!-- Footer -->
+<?php if ($this->countModules('footer')) : ?>
   <footer>
       <div class="container">
 <!-- And yet again trapped in position `footer` -->
@@ -197,5 +199,8 @@ if ($this->countModules('position-7')) {
 <!-- Free, at last -->
       </div>
   </footer>
+<?php endif; ?>
+
+<!-- Goodbye World -->
 </body>
 </html>
