@@ -7,7 +7,8 @@ body,
 html {
     width: 100%;
     height: 100%;
-    background-color: #F8F8F8;
+    background-color: #000000;
+    color: #f8f8f8;
 }
 body,
 h1, h2, h3, h4, h5, h6 {
@@ -16,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .red-text {
-  color: #C00;
+  color: #7d8a35;
 }
 
 /* Make images show nicely in paragraphs. */
@@ -107,7 +108,7 @@ p > img {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #000000;
     /* Pretending to be a col-md-8 */
     position: relative;
     min-height: 1px;
@@ -190,7 +191,7 @@ p > img {
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #000000;
 }
 
 @media (min-width: 768px) {
@@ -328,7 +329,7 @@ form#login-form .btn-primary {
 }
 
 .readmore > .btn:hover, .readmore > .btn:focus {
-  color: #C00;
+  color: #7d8a35;
 }
 
 /* Joomla-specific:
@@ -349,13 +350,13 @@ form#login-form .btn-primary {
 
 /* Robosane Colors for links */
 a {
-  color: #C00;
+  color: #7d8a35;
 }
 p a {
-  color: #00C;
+  color: #7d8a35;
 }
 a:hover, a:focus {
-    color: #C00;
+    color: #7d8a35;
 }
 
 /* Navigation */
@@ -366,14 +367,14 @@ a:hover, a:focus {
   margin: 10px 0 10px;
 }
 .dropdown-header {
-  background-color: #ed2024;
+  background-color: #4b5320;
   border-radius: 0px;
 }
 .dropdown-menu {
   float: none;
   text-align: left;
   list-style: none;
-  background-color: #ed2024;
+  background-color: #4b5320;
   border-radius: 0px;
 }
 .dropdown-menu > li > a {
@@ -407,12 +408,12 @@ a:hover, a:focus {
   text-decoration: none;
   background-color: transparent;
   /* border-bottom: 4px solid #ed2024; */
-  box-shadow: inset 0px -4px 0px #ed2024;
+  box-shadow: inset 0px -4px 0px #4b5320;
 }
 .nav-stacked > li > a:hover,
 .nav-stacked > li > a:focus {
   border-bottom: 4px solid transparent;
-  border-left: 4px solid #ed2024;
+  border-left: 4px solid #4b5320;
 }
 .nav-pills > li {
   float: right;
@@ -427,10 +428,10 @@ a:hover, a:focus {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #000;
-  background-color: #ed2024;
+  background-color: #4b5320;
 }
 .nav-pills > .active > a > .badge {
-  color: #ed2024;
+  color: #4b5320;
 }
 
 /* Fancy current page chevron */
@@ -452,7 +453,7 @@ li.active.current:before {
   height: 110%;
   width: 50%;
   width: calc(50% + 1px);
-  background: #ed2024;
+  background: #4b5320;
   -webkit-transform: skew(0deg, 20deg);
   -moz-transform: skew(0deg, 20deg);
   -ms-transform: skew(0deg, 20deg);
@@ -467,7 +468,7 @@ li.active.current:after {
   right: 0;
   height: 110%;
   width: 50%;
-  background: #ed2024;
+  background: #4b5320;
   -webkit-transform: skew(0deg, -20deg);
   -moz-transform: skew(0deg, -20deg);
   -ms-transform: skew(0deg, -20deg);

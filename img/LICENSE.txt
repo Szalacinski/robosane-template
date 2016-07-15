@@ -1,6 +1,6 @@
-The Robosane branding is obviously not open-source as the rest of the project.
+The Skiboy.net branding is obviously not open-source as the rest of the project.
 
-The Robosane logo rights reserved, obviously by Robosane.
+The Skiboy.net logo rights reserved, obviously by Skiboy.net.
 
 The cmc1 to 3 images contain content that is owned by Mojang, from their game Minecraft.
  We include these purely so you can test how the template looks without having to find more backgrounds.
