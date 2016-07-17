@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'),
+    local('Ubuntu-Bold'),
+    url('Ubuntu-B.eot'), /* IE 9 Compatibility Mode */
+    url('Ubuntu-B.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('Ubuntu-B.woff') format('woff'), /* Firefox >= 3.6, any other modern
+    browser */
+    url('Ubuntu-B.woff2') format('woff2'), /* Modern browsers */
+    url('Ubuntu-B.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('Ubuntu-B.svg#Ubuntu') format('svg'); /* Chrome < 4, Legacy iOS */
+}

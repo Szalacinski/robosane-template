@@ -28,9 +28,15 @@ $task     = $app->input->getCmd('task', '');
 $itemid   = $app->input->getCmd('Itemid', '');
 $sitename = $app->getCfg('sitename');
 
-// Add Stylesheets
+//Custom Fonts
+$doc->addStyleSheet('templates/'.$this->template.'/fonts/lato/latolatinfonts.css');
+$doc->addStyleSheet('templates/'.$this->template.'/fonts/ubuntu/ubuntu.css');
+$doc->addStyleSheet('templates/'.$this->template.'/fonts/material-design/material-icons.css');
+
+// Add Main Stylesheets
 $doc->addStyleSheet('templates/'.$this->template.'/css/bootstrap.css');
 $doc->addStyleSheet('templates/'.$this->template.'/css/skiboynet.css');
+
 
 // Add current user information
 $user = JFactory::getUser();
@@ -54,11 +60,6 @@ if ($this->countModules('position-7')) {
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     <jdoc:include type="head" />
     <?php // Twitter cards!
     if ( $this->params->get('twittercards') == "1" ) {
