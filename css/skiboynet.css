@@ -12,7 +12,7 @@ html {
 }
 body,
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "LatoLatinWeb","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -34,7 +34,7 @@ p > img {
 /* Style for top nav with Ubuntu font */
 .topnav {
     background-color: #000;
-    font-family: "Ubuntu","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Ubuntu","LatoLatinWeb","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 .topnav > .navbar {
